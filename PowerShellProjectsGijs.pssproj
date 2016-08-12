@@ -30,9 +30,12 @@
   <ItemGroup>
     <Folder Include="Azure\" />
     <Folder Include="Azure\ExpressRoute\" />
+    <Folder Include="Azure\ExpressRoute\ARM\" />
+    <Folder Include="Azure\ExpressRoute\ASM\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Azure\ExpressRoute\RMExpressRoute.ps1" />
+    <Compile Include="Azure\ExpressRoute\ARM\RMExpressRoute.ps1" />
+    <Compile Include="Azure\ExpressRoute\ASM\base.ps1" />
     <Compile Include="Script.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
