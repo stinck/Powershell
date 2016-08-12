@@ -1,6 +1,6 @@
 ﻿
 Install-Module azurerm
-#test
+
 Install-AzureRM
 
 Import-AzureRM
