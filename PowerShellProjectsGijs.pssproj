@@ -27,9 +27,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Compile Include="RMExpressRoute.ps1" />
+    <Folder Include="Azure\" />
+    <Folder Include="Azure\ExpressRoute\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Azure\ExpressRoute\RMExpressRoute.ps1" />
     <Compile Include="Script.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
